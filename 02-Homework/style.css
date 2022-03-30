@@ -1,0 +1,9 @@
+* {
+    border: solid black 1px;
+}
+
+nav {
+    text-align: right;
+    background-color: bisque;
+    color: black;
+}
