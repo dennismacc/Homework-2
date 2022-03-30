@@ -1,9 +1,15 @@
-* {
-    border: solid black 1px;
+nav {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: bisque;
+    color: black;
 }
 
-nav {
-    text-align: right;
-    background-color: bisque;
+text, h1 {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    flex-wrap: wrap;
     color: black;
 }
