@@ -1,17 +1,41 @@
-nav {
-    display:flex;
+.nav {
+    display: flex;
     text-align: left;
     flex-direction: row-reverse;
-    background-color:aliceblue;
+    background-color: aliceblue;
     color: black;
 }
 
-text, h2 {
+.headline {
     display: flex;
     text-align: center;
     flex-direction: column;
     flex-wrap: wrap;
     color: black;
+}
+
+.text, .h2 {
+    display: flex;
+    text-align: left;
+    flex-direction: column;
+    flex-wrap: wrap;
+    color: black;
+}
+
+.h4 {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    color: black;
+}
+
+#about, #work {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content:flex-start;
 }
 
 #contact {
@@ -19,4 +43,5 @@ text, h2 {
     text-align: center;
     flex-direction: column;
     flex-wrap: wrap;
+    align-content: center;
 }
