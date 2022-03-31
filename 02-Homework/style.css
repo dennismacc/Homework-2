@@ -1,8 +1,8 @@
 nav {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    background-color: bisque;
+    display:flex;
+    text-align: left;
+    flex-direction: row-reverse;
+    background-color:aliceblue;
     color: black;
 }
 
@@ -12,4 +12,11 @@ text, h1 {
     flex-direction: column;
     flex-wrap: wrap;
     color: black;
+}
+
+.contact {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    flex-wrap: wrap;
 }
