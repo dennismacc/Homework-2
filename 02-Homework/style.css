@@ -6,7 +6,7 @@ nav {
     color: black;
 }
 
-text, h1 {
+text, h2 {
     display: flex;
     text-align: center;
     flex-direction: column;
@@ -14,7 +14,7 @@ text, h1 {
     color: black;
 }
 
-.contact {
+#contact {
     display: flex;
     text-align: center;
     flex-direction: column;
