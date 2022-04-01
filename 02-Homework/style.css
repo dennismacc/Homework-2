@@ -45,3 +45,8 @@
     flex-wrap: wrap;
     align-content: center;
 }
+
+#photo {
+    width: 250px;
+    height: auto;
+}
