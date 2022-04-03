@@ -29,13 +29,13 @@ body {
 
 .nav a:hover {
     color:navy;
-    text-shadow: 0 5px 10px navy;
+    text-shadow: 0 5px 10px lightseagreen;
 }
 /* Page header with name and job title */
 main section {
     display: flex;
-    margin: 20px 50px;
-    justify-content: center;
+    margin: 3px;
+    justify-content: left;
 }
 
 main section, .title {
@@ -58,7 +58,7 @@ main section .div, .h2 {
 /* Add text shadow when mouse hovers over text*/
 a:hover {
     color:navy;
-    text-shadow: 5px 10px 30px navy;
+    text-shadow: 5px 10px 30px lightseagreen;
 }
 
 /* Styling for content in About Me, My Work, and Contact Info */
@@ -81,7 +81,10 @@ a:hover {
     font-size: smaller;
     line-height: 2;
     border: 2px silver solid;
-  }
+    border-radius: 15px;    
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;    padding: 10px;
+    margin: 30px;
+}
   #figCaption {
     display: table-caption;
     caption-side: bottom;
@@ -100,8 +103,8 @@ ul {
    margin-right: auto;
    width: 25%;
    height: 25%;
-}
-
+   box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}   
 /* Formating for image of mini project*/
 #miniProject {
     width: 500px;
@@ -117,4 +120,10 @@ ul {
     color: black;
     bottom:0;
     width:100%;
+}
+
+/* Media query */
+@media screen and (max-width:660px) {
+    background-color;
+    
 }
