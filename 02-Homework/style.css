@@ -13,8 +13,11 @@
 }
 
 body {
-    background: url(https://images.unsplash.com/photo-1533628635777-112b2239b1c7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3000&q=500);
+    background-size: cover;
+    background: url(https://images.unsplash.com/photo-1533628635777-112b2239b1c7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2000&q=500);
+    background-position: center center;
 }
+
 
 /* navigation bar */
 .nav {
@@ -25,6 +28,14 @@ body {
     justify-content: space-evenly;
     background-color: aliceblue;
     color: black;
+    position:fixed;
+    top:0;
+    width:100%;
+}
+
+.nav a:hover {
+    color:navy;
+    text-shadow: 0 5px 10px navy;
 }
 /* Page header with name and job title */
 main section {
@@ -50,6 +61,11 @@ main section .div, .h2 {
     color: black;
 }
 
+a:hover {
+    color:navy;
+    text-shadow: 5px 10px 30px navy;
+}
+
 #about, #work, #contact {
     display: flex;
     text-align: center;
@@ -71,4 +87,14 @@ ul {
 #miniProject {
     width: 500px;
     height: auto;
+}
+
+footer {
+    display: flex;
+    padding: 20px;
+    justify-content: space-evenly;
+    background-color: aliceblue;
+    color: black;
+    bottom:0;
+    width:100%;
 }
