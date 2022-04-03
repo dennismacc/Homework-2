@@ -1,3 +1,10 @@
+/* Universal page styling */
+* {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: black;
+}
+
+/* navigation bar */
 .nav {
     display: flex;
     flex-direction: row;
@@ -6,7 +13,7 @@
     background-color: aliceblue;
     color: black;
 }
-
+/* Page header with name and job title */
 .headline {
     display: flex;
     text-align: center;
@@ -14,8 +21,8 @@
     flex-wrap: wrap;
     color: black;
 }
-
-.text, .h2 {
+/* Text and headlines for sections */
+.div, .h2 {
     display: flex;
     text-align: left;
     flex-direction: column;
