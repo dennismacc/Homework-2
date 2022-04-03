@@ -6,7 +6,7 @@
     padding: 1;
     scroll-behavior: smooth;
 }
-
+/* Background image */
 body {
     background-size: cover;
     background: url(https://images.unsplash.com/photo-1533628635777-112b2239b1c7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2000&q=500);
@@ -61,6 +61,7 @@ a:hover {
     text-shadow: 5px 10px 30px navy;
 }
 
+/* Styling for content in About Me, My Work, and Contact Info */
 #about, #work, #contact {
     display:flex;
     text-align: center;
@@ -86,6 +87,7 @@ a:hover {
     caption-side: bottom;
   }
 
+/* Remove bullet points and add spacing to list items in contact section */  
 ul {
     list-style-type: none;
     line-height: 2;
@@ -107,7 +109,7 @@ ul {
 }
 
 /* Styling for web page footer*/
-footer {
+.footer {
     display: flex;
     padding: 20px;
     justify-content: space-evenly;
