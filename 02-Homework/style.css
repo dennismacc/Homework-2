@@ -105,8 +105,8 @@ ul {
    height: 25%;
    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
 }   
-/* Formating for image of mini project*/
-#miniProject {
+/* Formating for project gifs*/
+#project1, #project2, #project3 {
     width: 500px;
     height: auto;
 }
